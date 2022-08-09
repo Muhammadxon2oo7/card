@@ -1,0 +1,150 @@
+    @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content:center;
+    background-color: #D6E1FF;
+    padding-top: 80px;
+}
+.card{
+    width: 400px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px rgb(116, 116, 116);
+}
+.card__img{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px 12px 0px 0px;
+    margin-bottom: 20px;
+}
+.card__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.card__body{
+    display: flex;
+    width: 100%;
+    /* height: 50%; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card__body .card__body__title{
+    color: #252E3A;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.card__body .card__body__texts{
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+.card__body__music__card{
+    width: 70%;
+    display: flex;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+}
+.card__body__music__card:hover{
+    box-shadow: 0px 0px 10px 10px gainsboro;
+}
+.card__body__music__card__icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DBE4F8;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.card__body__music__card__icon i{
+    color: #858CAB;
+}
+.card__body__music__card__content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.card__body__music__card__content__title{
+    font-size: 15px;
+    color: #252E3A;
+    font-weight: 700;
+    width: 70%;
+}
+.card__body__music__card__content__prise{
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+}
+.card__body__music__card__content__link{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.card__footer{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+}
+.card__footer__btn--blue{
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    border: none;
+    background-color:#382ECC;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.card__footer__btn--blue a{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+.card__footer__btn--blue:hover{
+    transition: .7s;
+    background-color: #2317c9;
+}
+.card__footer__btn{
+    width: 100%;
+    height: 45px;
+    border-radius: 12px;
+    border: none;
+    transition: .7s;
+}
+.card__footer__btn a{
+    width: 100%;
+    color: grey;
+    font-weight: 600;
+    
+}
+.card__footer__btn:hover{
+    transition: .7s;
+    background-color: rgb(217, 32, 32);
+}
+.card__footer__btn:hover a{
+    color: #fff;
+}
+.card__footer__btn:focus{
+    transition: .6s;
+    background-color: red;
+}
+.card__footer__btn:focus a{
+    color: #fff;
+}
